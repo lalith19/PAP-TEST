@@ -1,0 +1,70 @@
+.bimage{
+    background-color:#2f4f4f;
+	background-image:url(pap2.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
+	
+}
+.home{
+	text-align:center;
+	background-color:#00ced1;
+	padding-top:00px;
+}
+#homen{
+	float:right;
+}
+#homew{
+	font-size:2em;
+}
+#nav{
+	padding-top:300px;
+}
+	
+.webmail{
+	font-style:bold;
+	color:#dc143c;
+	font-size:2em;
+	float:left;
+	
+	
+	
+}
+.login{
+	font-style:bold;
+	color:#dc143c;
+	font-size:2em;
+	float:right;
+	
+}
+.lpage{
+	float:right;
+	color:#dc143c;
+	
+}
+
+
+#ul{
+	list-style:none;
+	}
+div{
+	position:center;
+	}
+.page2{
+	text-align:center;
+	background-color:#686559;
+	
+}
+#lh1{
+	font-family:courier;
+	font-size:3em;
+
+}
+	
+#a2{
+	font-style:bold;
+	color:#191970;
+}
+#a1{
+	font-style:bold;
+	color:#191970;
+}

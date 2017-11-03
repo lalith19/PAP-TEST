@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="utf-8"/>
+<script type="text/javascript">
+ function check_info(){
+   var username=document.getElementById('username').value;
+   var password=document.getElementById('password').value;
+     
+	  if(username=="lalith" && password=="Welcome123"){
+	    
+	return true;
+		}
+		else{
+		alert('username or password is wrong');
+		return false;
+		}
+ 
+ }
+
+
+
+</script>
+</head>
+  <body>
+ 
+  <form align="center" action="homepage.html" method="post" onsubmit="return check_info();">
+           <h4>username:<input type="text" name="username" id="username"/></h4>
+           <h4>password:<input type="password" name="password" id="password"/></h4><br/>
+           <input id="i3" type="submit" value="LOGIN"/>
+    </form>
+  </body>
+</html>
