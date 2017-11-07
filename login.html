@@ -1,16 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-
-<meta charset="utf-8"/>
 <script type="text/javascript">
  function check_info(){
    var username=document.getElementById('username').value;
    var password=document.getElementById('password').value;
-     
-	  if(username=="lalith" && password=="Welcome123"){
-	    
-	return true;
+	  if(username=="lalith" && password=="Welcome123")
+	  {
+	    return true;
 		}
 		else{
 		alert('username or password is wrong');
@@ -18,17 +15,18 @@
 		}
  
  }
-
-
-
 </script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="main.css" />
+<title>Login form</title>
 </head>
-  <body>
- 
-  <form align="center" action="homepage.html" method="post" onsubmit="return check_info();">
-           <h4>username:<input type="text" name="username" id="username"/></h4>
-           <h4>password:<input type="password" name="password" id="password"/></h4><br/>
-           <input id="i3" type="submit" value="LOGIN"/>
+<body>
+<div class=login1>
+ <form  action="homepage.html" method="post" onsubmit="return check_info();">
+           <h4>username:<input type="text" name="username" class="field" id="username"/></h4>
+           <h4>password:<input type="password" name="password" class="field" id="password"/></h4><br/>
+           <input id="i3" type="submit" name="submit" value="LOGIN" class="btn"/>
+		   </div>
     </form>
-  </body>
+</body>
 </html>
